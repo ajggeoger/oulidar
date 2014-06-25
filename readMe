@@ -1,0 +1,10 @@
+A series of functions to help process .all datafiles from the Optech ALTM 3033
+as delivered by the NERC ARSF.
+
+Two example .all files are provided.
+
+Functions:
+    lidarFilt - splits every .all file in a folder into Last and First Pulse
+    lidarSite - cuts out the area required based on LL/UR corner coords for a site
+    lidarPlot - shows the density of points for specified grid size
+
